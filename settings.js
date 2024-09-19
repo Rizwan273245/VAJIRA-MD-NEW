@@ -5,8 +5,8 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=CcET0Y4b#bvtcCnCv1EUG4JANPfn1irmcuxMx4RF_edYvajFFuCI' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? 'VAJIRA-MD=CcET0Y4b#bvtcCnCv1EUG4JANPfn1irmcuxMx4RF_edYvajFFuCI' : process.env.OWNER_NUMBER,   
+SESSION_ID: VAJIRA-MD=CQc3CR7A#z3bPyul8f7PNeomT87CjZsn-XmuvIK1LGUojWriwjUU === undefined ? 'VAJIRA-MD=CcET0Y4b#bvtcCnCv1EUG4JANPfn1irmcuxMx4RF_edYvajFFuCI' : process.env.SESSION_ID,
+OWNER_NUMBER: process.env.923263305 === undefined ? 'VAJIRA-MD=CcET0Y4b#bvtcCnCv1EUG4JANPfn1irmcuxMx4RF_edYvajFFuCI' : process.env.OWNER_NUMBER,   
 ONLY_GROUP: process.env.ONLY_GROUP === undefined ? 'false' : process.env.ONLY_GROUP,
 ONLY_ME: process.env.ONLY_ME === undefined ? 'false' : process.env.ONLY_ME,
 AUTO_STATUS_READ:  process.env.AUTO_STATUS_READ  || false  ,    
@@ -24,9 +24,9 @@ ANTI_BAD: process.env.ANTI_BAD || false  ,
 AUTO_REACT:  process.env.AUTO_REACT  || false  ,    
 AUTO_TYPING:  process.env.AUTO_TYPING  || false  ,
 AUTO_RECORDING:  process.env.AUTO_RECORDING  || false  ,
-AUTO_READ:  process.env.AUTO_READ  || false  ,
+AUTO_READ:  process.env.AUTO_READ  || true  ,
 READ_CMD_ONLY:  process.env.READ_CMD_ONLY  || false  ,
-AUTO_BIO:  process.env.AUTO_BIO  || false  ,       
+AUTO_BIO:  process.env.AUTO_BIO  || true  ,       
 ALWAYS_ONLINE:  process.env.ALWAYS_ONLINE  || false  ,
 WORK_TYPE: process.env.WORK_TYPE || 'private' ,
 ANTI_LINK: process.env.ANTI_LINK || false  ,
